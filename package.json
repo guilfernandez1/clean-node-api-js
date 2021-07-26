@@ -1,0 +1,31 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilfernandez1/clean-node-api-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilfernandez1/clean-node-api-js/issues"
+  },
+  "homepage": "https://github.com/guilfernandez1/clean-node-api-js#readme",
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.1",
+    "standard": "^16.0.3"
+  }
+}
